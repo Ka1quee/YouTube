@@ -1,4 +1,4 @@
-# Youtube Clone
+# Youtube Clone 🔴 ▶
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/Ka1quee/Youtube-Clone/blob/main/LICENSE) 
 
 # Sobre o projeto

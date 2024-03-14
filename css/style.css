@@ -179,7 +179,7 @@ html {
     color: var(--titulo-primario);
     position: fixed;
     background-color: var(--fundo);
-    transition: 0.5s all;
+
 }
 
 .nav-lateral:hover {
@@ -196,7 +196,6 @@ html {
     border-radius: 10px;
     cursor: pointer;
     padding-left: 15px;
-    transition: 0.5s all;
 }
 
 .nav-lateral ul li a {
@@ -336,6 +335,11 @@ html {
     font-size: 10px;
     cursor: pointer;
     transition: 0.5s all;
+}
+
+.tudo{
+    background-color: var(--titulo-primario);
+    color: var(--fundo);
 }
 
 .categoria-item:hover {
@@ -502,11 +506,19 @@ html {
 .capa-short {
     height: 80%;
     width: 100%;
-    background-color: blue;
-    border-radius: 10px
+    border-radius: 10px;
+}
+
+.capa-short img{
+    height: 100%;
+    border-radius: 10px;
+    width: 100%;
 }
 
 .titulo-short {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
     padding-top: 10px;
 }
 
@@ -582,5 +594,7 @@ html {
 .mover-conteudo {
     padding-left: 100px;
 }
+
+/* Desenvolvido por Kaique Oliveira */
 
 

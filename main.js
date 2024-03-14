@@ -12,17 +12,16 @@ function toggleMenu() {
     if (isMenuVisible) {
       menuLateral.classList.add('nav-lateral-hidden');
       menuLink.classList.add('menu-item');
-      // Adiciona a classe '.sumir' ao único elemento com a classe '.teste'
       menus.classList.add('hidden');
       conteudoPagina.classList.add('mover-conteudo')
     } else {
       menuLateral.classList.remove('nav-lateral-hidden');
       menuLink.classList.remove('menu-item');
-      // Remove a classe '.sumir' do único elemento com a classe '.teste'
       menus.classList.remove('hidden');
       conteudoPagina.classList.remove('mover-conteudo')
     }
     
-    // Atualiza o estado do menu
     isMenuVisible = !isMenuVisible;
 }
+
+// Desenvolvido por Kaique Oliveira

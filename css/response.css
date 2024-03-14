@@ -1,7 +1,5 @@
 /* Responsividade tablet*/
 @media only screen and (min-width: 778px) {
-
-
     @media only screen and (max-width: 1029px) {
 
         .conteudo-pagina {
@@ -10,7 +8,7 @@
             padding-left: 0;
         }
 
-        .container-videos{
+        .container-videos {
             display: flex;
             justify-content: center;
         }
@@ -29,20 +27,19 @@
             justify-content: space-around;
         }
 
-        .shorts{
+        .shorts {
             width: auto;
             margin: auto;
             margin-top: 30px;
         }
 
-        .card-video{
+        .card-video {
             padding-top: 0;
         }
-    
-        .ad{
+
+        .ad {
             margin-bottom: 50px;
         }
-
 
     }
 }
@@ -57,20 +54,27 @@
         padding-left: 0;
     }
 
-    .container-videos, .shorts, .container-shorts {
+    .container-videos,
+    .shorts,
+    .container-shorts {
         display: flex;
         justify-content: center;
+        padding: 10px;
     }
 
-    .card-video{
+    .card-video {
         padding-top: 0;
     }
 
-    .ad{
+    .ad {
         margin-bottom: 50px;
     }
 
     .menu-categoria {
+        display: none;
+    }
+
+    .nav-lateral {
         display: none;
     }
 
@@ -99,17 +103,17 @@
 
     }
 
-    .titulo-shorts{
+    .titulo-shorts {
         width: 100%;
         justify-content: center;
     }
 
-    .shorts{
+    .shorts {
         width: auto;
         margin: auto;
         margin-top: 30px;
     }
 
-
-
 }
+
+/* Desenvolvido por Kaique Oliveira */
